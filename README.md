@@ -5,9 +5,6 @@
 *Thais Tamaio 202022213
 
 
-Test GitHub account
-Test 2
-Test 3
 
 
 #ISIS1225 - Estructura de un proyecto
