@@ -56,4 +56,11 @@ def loadBooksTags(catalog):
     """
     TODO
     """
-    pass
+
+    #TODO:  Respuesta profesores Discord.
+    books = loadBooks(catalog)
+    tags = loadTags(catalog)
+
+    return (books, tags)
+
+    
