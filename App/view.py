@@ -51,7 +51,7 @@ def loadBooks():
     """
     Carga los libros
     """
-    return controller.loadBooks('GoodReads/books.csv') #el repositorio original tiene 'GoodReads/books-small.csv'
+    return controller.loadBooks('GoodReads/books.csv') # el repositorio original tiene 'GoodReads/books-small.csv'
 
 
 def loadTags():
@@ -59,14 +59,6 @@ def loadTags():
     Carga los Tags
     """
     return controller.loadTags('GoodReads/tags-small.csv')
-
-#TODO: Función que no sabemos si toca hacer.
-def loadBooksTags():
-    """
-    Carga los Book Tags del archivo book_tags.csv
-    """
-    return controller.loadBooksTags('GoodReads/book_tags.csv')
-
 
 
 """
@@ -85,13 +77,11 @@ while True:
         tags = loadTags()
         print('Total de tags cargados: ' + str(lt.size(tags)))
     # TO-DO: Modificaciones para completar el laboratorio 1.
-    #TODO: Revisar esto... respuesta por Discord.
+
     elif int(inputs[0]) == 3:
         print("Cargando información de tags de los libros....")
         
-        _books = loadBooksTags()[0]
-        _tags = loadBooksTags()[1]
-        print(str(lt.size(_books))+ str(lt.size(_tags)))
+        print("Opción en proceso de desarrollo. \nEspere al próximo Lab.")
 
     else:
         sys.exit(0)

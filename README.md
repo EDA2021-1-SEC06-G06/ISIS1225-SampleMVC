@@ -1,8 +1,8 @@
 # Integrantes
 
-*Juan José Osorio 202021720
+*Juan José Osorio - j.osorioc@uniandes.edu.co - 202021720
 
-*Thais Tamaio 202022213
+*Thais Tamaio - t.tamaio@uniandes.edu.co - 202022213
 
 
 
